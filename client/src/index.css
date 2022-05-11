@@ -1,0 +1,62 @@
+  body {
+    margin: 0;
+    @font-face {
+      font-family: "IRANSans";
+      src: url("http://dl.itunesmusic.ir/Font/IRANSans-Light.eot");
+      src: url("http://dl.itunesmusic.ir/Font/IRANSans-Light.eot?#iefix")
+          format("embedded-opentype"),
+        url("http://dl.itunesmusic.ir/Font/IRANSans-Light.woff") format("woff"),
+        url("http://dl.itunesmusic.ir/Font/IRANSans-Light.ttf") format("truetype");
+      font-weight: 300;
+      font-style: normal;
+    }
+  }
+
+
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+  }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+.swiper {
+  width: 40em;
+  height: 100%;
+  overflow: auto;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  width: 40em;
+  height: 100%;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
